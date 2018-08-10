@@ -1,0 +1,55 @@
+switch.03200122dc4f222430c9_1:
+  config_entry_id:
+  name:
+  platform: tuya
+  unique_id: tuya.03200122dc4f222430c9_1
+switch.03200122dc4f222430c9_2:
+  config_entry_id:
+  name:
+  platform: tuya
+  unique_id: tuya.03200122dc4f222430c9_2
+switch.03200122dc4f222430c9_3:
+  config_entry_id:
+  name:
+  platform: tuya
+  unique_id: tuya.03200122dc4f222430c9_3
+switch.03200122dc4f222430c9_4:
+  config_entry_id:
+  name:
+  platform: tuya
+  unique_id: tuya.03200122dc4f222430c9_4
+switch.03200122dc4f222430c9_5:
+  config_entry_id:
+  name:
+  platform: tuya
+  unique_id: tuya.03200122dc4f222430c9_5
+media_player.brettpc:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: xs7k9siuof6dv83208ssv2t9
+light.bedroom_lamp_2:
+  config_entry_id: 983f1a449b81443daeaa15abbda4dfee
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:2b:38:67-0b
+light.bedroom_tower_lamp:
+  config_entry_id: 983f1a449b81443daeaa15abbda4dfee
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:b3:1b:39-0b
+light.bedroom_lamp_1:
+  config_entry_id: 983f1a449b81443daeaa15abbda4dfee
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:29:30:9f-0b
+climate.upstairs:
+  config_entry_id: 4c6a69ff711c44859c9ca7009cfe5877
+  name:
+  platform: nest
+  unique_id: JRSNiYv0SGXkbRC-q_fSlDi3qPHi4yqp
+media_player.bedroom_tv:
+  config_entry_id: 5c4764825d67452d85018418b27d97a3
+  name:
+  platform: cast
+  unique_id: 4a727627-c1a6-cb8a-7618-e1e1c7c9c7cb
