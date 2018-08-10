@@ -11,7 +11,7 @@ default_view:
         - group.all_lights
         - group.all_automations
         - group.thermostat
-        - device_tracker.brett_phone
+        - device_tracker.brett
         
 Bedroom:
     view: yes
