@@ -22,4 +22,4 @@ deploy:
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
   script:
-    - ssh $DEPLOY_USER:$DEPLOY_PASSWORD@$DEPLOY_HOST "cd '$DEPLOY_PATH'; git pull; docker-compose restart"
+    - ssh $DEPLOY_USER@$DEPLOY_HOST "cd '$DEPLOY_PATH'; git pull; docker-compose restart"
