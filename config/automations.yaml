@@ -1,4 +1,4 @@
-[]- id: '1533761576187'
+- id: '1533761576187'
   alias: Bedtime
   trigger:
   - event: start

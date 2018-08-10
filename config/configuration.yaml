@@ -42,12 +42,6 @@ hue:
 media_player:
     - platform: plex
       entity_namespace: 'plex'
-
-panel_iframe:
-    configurator:
-        title: Configurator
-        icon: mdi:wrench
-        url: http://10.0.1.4:3218
         
 nest:
     client_id: !secret nest_client_id
