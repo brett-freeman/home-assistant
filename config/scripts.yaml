@@ -13,3 +13,19 @@ home:
   - data: {}
     service: light.turn_on
   - service: switch.turn_on
+'1533870846614':
+  alias: Bedtime
+  sequence:
+  - data:
+      entity_id: light.bedroom_all_lights
+    service: light.turn_off
+  - data:
+      entity_id: group.monitors
+    service: switch.turn_off
+'1533870911890':
+  alias: GoodMorning
+  sequence:
+  - data:
+      brightness_pct: '20'
+      entity_id: light.bedroom_lamp_1, light.bedroom_tower_lamp, light.bedroom_light_strip
+    service: light.turn_on
