@@ -13,7 +13,7 @@ home:
   - data: {}
     service: light.turn_on
   - service: switch.turn_on
-'1533870846614':
+bedtime:
   alias: Bedtime
   sequence:
   - data:
@@ -22,7 +22,7 @@ home:
   - data:
       entity_id: group.monitors
     service: switch.turn_off
-'1533870911890':
+goodmorning:
   alias: GoodMorning
   sequence:
   - data:
