@@ -1,0 +1,15 @@
+away:
+  alias: Away
+  sequence:
+  - data:
+      entity_id: group.all_lights
+    service: light.turn_off
+  - data:
+      entity_id: group.monitors
+    service: switch.turn_off
+home:
+  alias: Home
+  sequence:
+  - data: {}
+    service: light.turn_on
+  - service: switch.turn_on

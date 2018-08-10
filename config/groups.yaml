@@ -1,0 +1,56 @@
+####################
+## PAGES
+####################
+
+default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+        - persistent_notification.1
+        - group.all_switches
+        - group.all_lights
+        - group.all_automations
+        - group.thermostat
+        - device_tracker.brett_phone
+        
+Bedroom:
+    view: yes
+    icon: mdi:hotel
+    entities:
+        - group.monitors
+        - group.bedroom_lights
+        
+Climate:
+    view: yes
+    icon: mdi:air-conditioner
+    entities:
+        - group.thermostat
+
+####################
+## GROUPS
+####################
+
+Monitors:
+    control: hidden
+    entities:
+        - switch.bedroom_monitor_top
+        - switch.bedroom_monitor_left
+        - switch.bedroom_monitor_middle
+        - switch.bedroom_monitor_right
+        
+Bedroom Lights:
+    control: hidden
+    entities:
+        - light.bedroom_lamp_1
+        - light.bedroom_lamp_2
+        - light.bedroom_tower_lamp
+        - light.bedroom_light_strip
+        - light.bedroom_all_lights
+        
+Thermostat:
+    name: Nest Thermostat
+    view: no
+    entities:
+        - climate.upstairs
+        - sensor.upstairs_thermostat_hvac_state
+        - sensor.upstairs_thermostat_humidity
