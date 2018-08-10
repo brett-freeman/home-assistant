@@ -2,7 +2,6 @@
 *.log
 *.db-shm
 *.db-wal
-config/secrets.yaml
 .storage
 plex.conf
 known_devices.yaml
