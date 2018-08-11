@@ -41,6 +41,7 @@ Monitors:
 Bedroom Lights:
     control: hidden
     entities:
+        - light.bedroom_lamp
         - light.bedroom_lamp_1
         - light.bedroom_lamp_2
         - light.bedroom_tower_lamp
